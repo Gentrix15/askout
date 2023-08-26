@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/58798c98e6f2e1f8d78a5d59/1612391487424-1YPOGTW127T6E9N96BQM/1.jpg?format=1000w");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  form{
+    text-align: center;
+  }
+  
+  h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: 'Cursive', cursive ;
+    color: #333;
+  }
+  
+  .form-group{
+    display: inline-block;
+    padding-inline: 5vh;
+    margin-bottom: 15px;
+    width: 30hh;
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+    .haan {
+        width: 100% ;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: 0.3s;
+      }
+
+      #naah {
+        width: 100% ;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: #ec2502;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: 0.3s;
+      }
+      
+      input[type="submit"]:hover{
+        background-color: #05eedf;
+      }
+        
