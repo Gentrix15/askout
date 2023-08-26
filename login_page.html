@@ -10,13 +10,25 @@
         var audio = new Audio("This-Is-Why-We-Cant-Have-Nice-Things.mp3");
         function playAudio() {
           event.preventDefault();
-          alert("Vpis se socho na yaar, pleaseeee?");
-        audio.play();
+          audio.play();
+          showAlert();
+        
       }
       function stopAudio() {
             audio.pause();
             audio.currentTime = 0; // Reset audio to the beginning
         }
+        function showAlert() {
+        var confirmed = window.confirm("Vpis se socho na yaar, pleaseeee?");
+
+        if (!confirmed) {
+          // User clicked "No", show the alert again
+          showAlert();
+        } else {
+          // User clicked "Yes", reload the page
+          window.location.reload();
+        }
+      }
     </script>
   </head>
   <body>
