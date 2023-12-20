@@ -1,5 +1,6 @@
 body{
-    background-image: url("https://images.squarespace-cdn.com/content/v1/58798c98e6f2e1f8d78a5d59/1612391487424-1YPOGTW127T6E9N96BQM/1.jpg?format=1000w");
+    /* background-image: url("https://images.squarespace-cdn.com/content/v1/58798c98e6f2e1f8d78a5d59/1612391487424-1YPOGTW127T6E9N96BQM/1.jpg?format=1000w"); */
+    background: #080808;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,70 +21,64 @@ body{
     box-shadow: 0 0 10px #ccc;
   }
   
-  form{
-    text-align: center;
-  }
-  
-  h1{
+  h2{
     margin-bottom: 30px;
-    font-size: 36px;
     font-family: 'Cursive', cursive ;
-    color: #333;
+    color: #e94d58;
+    position: relative;
+    margin-left: 0px;
   }
   
-  .form-group{
-    display: inline-block;
-    padding-inline: 5vh;
-    margin-bottom: 15px;
-    width: 30hh;
-  }
+  .gif {
+    margin-left: 10%;
+}
   
-  label{
-    display: block;
-    margin-bottom: 8px;
-    font-size: 18px;
-    color: #333;
-  }
-  
-  input[type="text"], input[type="password"]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 18px;
-  }
-  
-    .haan {
-        width: 100% ;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: none;
-        background-color: #4CAF50;
-        color: white;
-        font-size: 18px;
-        cursor: pointer;
-        border-radius: 4px;
-        transition: 0.3s;
-      }
+.btn-group {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+button {
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px gray;
+  border: 2px solid #e94d58;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2em;
+}
+button:nth-child(1) {
+  margin-left: -200px;
+  background: #e94d58;
+}
+button:nth-child(2) {
+  margin-right: -200px;
+  background: white;
+  color: #e94d58;
+}
+/* .re-btn{
+  visibility: hidden;
+  color: #080808;
+} */
+button:nth-child(3) {
+  margin-left: -200px;
+  background: #e94d58;
+  visibility: hidden;
+}
+button:nth-child(4) {
+  margin-right: -200px;
+  background: white;
+  color: #e94d58;
+  visibility: hidden;
+}
 
-      #naah {
-        width: 100% ;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: none;
-        background-color: #ec2502;
-        color: white;
-        font-size: 18px;
-        cursor: pointer;
-        border-radius: 4px;
-        transition: 0.3s;
-      }
-      
-      input[type="submit"]:hover{
-        background-color: #05eedf;
-      }
-        
+
+  
+  

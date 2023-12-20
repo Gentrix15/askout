@@ -2,52 +2,22 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="login_page.css">
-    <title> Hello ke Liye <3 </title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script>
-      // Function to handle button click even
-        // Play the audio
-        var audio = new Audio("This-Is-Why-We-Cant-Have-Nice-Things.mp3");
-        function playAudio() {
-          event.preventDefault();
-          audio.play();
-          showAlert();
-        
-      }
-      function stopAudio() {
-            audio.pause();
-            audio.currentTime = 0; // Reset audio to the beginning
-        }
-        function showAlert() {
-        var confirmed = window.confirm("Vpis se socho na yaar, pleaseeee?");
-
-        if (!confirmed) {
-          // User clicked "No", show the alert again
-          showAlert();
-        } else {
-          // User clicked "Yes", reload the page
-          window.location.reload();
-        }
-      }
-    </script>
+    <title> For you! <3 </title>
+    <script src="https://kit.fontawesome.com/c6374d55fe.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
       <div class="form-container">
-        <form action="thank_you.html" target="_blank">
-          <h1>Acha, Suno na! Let's go Somewhere together, Somewhere only we know? Pweasseeeeeeee 🥺👉👈 </h1>
- 
-          <div class="form-group">
-            <input type="submit" value="Arey Haan, Bilkul ye bhi koi puchne ki baat hai?" onclick="stopAudio();" class="haan"> 
-          </div>
-
-          <div class="form-group">
-            <button onclick="playAudio()" id="naah"> Arey Nahi, Tumhare saath toh bilkul bhi nhi huh! </button>
-          </div>
-        </form> 
+          <h2 id="text"> Let's go out on a Date? 👉👈 </h2>
+          <img class="gif" alt="gif" src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"/>
+          <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="no-btn">No</button>
+            <button class="flw-btn"><i class="fa-brands fa-instagram"></i></button>
+            <button class="re-btn">Retry</button>
+        </div>
       </div>
     </div>
-
- 
+    <script src="script.js"></script>
   </body>
 </html>
