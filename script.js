@@ -35,5 +35,5 @@ reBtn.addEventListener("click", () => {
 });
 
 flwBtn.addEventListener("click", () => {
-    window.open('https://www.instagram.com/suryaa.kiran/');
+    window.open('https://www.instagram.com/wtftanisha_/');
 });
